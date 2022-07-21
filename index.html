@@ -14,10 +14,7 @@
       type="text/css"
       href="assets/css/bootstrap.rtl.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
-    />
+   
     <link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/basic.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
@@ -28,7 +25,8 @@
     <main>
       <div class="container-fluid">
         <!-- header -->
-        <header>
+        <header class="bg-white mb-4">
+          
           <nav class="navbar">
             <div class="brand-img-box py-3 px-5 col-3">
               <img
@@ -83,7 +81,58 @@
 
           <div class="custom-carousel">
             <div class="row flex-nowrap custom-carousel-content p-5 responsive">
+
               <div class="custom-carousel-item d-flex justify-content-center">
+              
+                <div class="col-2 m-2 slider-img-box">
+                  <a href="#">
+                      <img
+                      src="assets/images/movies-poster/Jadoogar.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>
+                  
+                </div>
+                <div class="col-2 m-2 slider-img-box">
+                  <a href="#">
+                    <img
+                    src="assets/images/movies-poster/Morbius.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  </a>
+                </div>
+                <div class="col-2 m-2 slider-img-box">
+                  <a href="#">
+                      <img
+                      src="assets/images/movies-poster/THE-BATMAN-2022-2 (1).jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>                 
+                </div>
+                <div class="col-2 m-2 slider-img-box">
+                  <a href="#">
+                      <img
+                      src="assets/images/movies-poster/Morbius.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-2 m-2 slider-img-box">
+                  <a href="">
+                      <img
+                      src="assets/images/movies-poster/THE-BATMAN-2022-2 (1).jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                  </a>                  
+                </div>
+              </div>
+              <div class="custom-carousel-item d-flex justify-content-center">
+              
                 <div class="col-2 m-2 slider-img-box">
                   <img
                     src="assets/images/movies-poster/Jadoogar.jpg"
@@ -121,6 +170,7 @@
                 </div>
               </div>
               <div class="custom-carousel-item d-flex justify-content-center">
+              
                 <div class="col-2 m-2 slider-img-box">
                   <img
                     src="assets/images/movies-poster/Jadoogar.jpg"
@@ -157,45 +207,16 @@
                   />
                 </div>
               </div>
-              <div class="custom-carousel-item d-flex justify-content-center">
-                <div class="col-2 m-2 slider-img-box">
-                  <img
-                    src="assets/images/movies-poster/Jadoogar.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="col-2 m-2 slider-img-box">
-                  <img
-                    src="assets/images/movies-poster/Morbius.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="col-2 m-2 slider-img-box">
-                  <img
-                    src="assets/images/movies-poster/THE-BATMAN-2022-2 (1).jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="col-2 m-2 slider-img-box">
-                  <img
-                    src="assets/images/movies-poster/Morbius.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="col-2 m-2 slider-img-box">
-                  <img
-                    src="assets/images/movies-poster/THE-BATMAN-2022-2 (1).jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-              </div>
+              
             </div>
+            <button id="prev">
+              <i class="fa fa-arrow-left"></i>
+            </button>
+            <button id="next">
+              <i class="fa fa-arrow-right"></i>
+            </button>
           </div>
+          
         </header>
 
         <!-- Advance Search -->
@@ -463,8 +484,10 @@
               </div>
               <div class="row weelky-series">
                 <div class="weekly-movie-box m-auto row">
-                  <div
-                    class="col-6 d-flex weekly-movie-item justify-content-between border-bottom p-2"
+                  <!-- 1 -->
+                  <div class="row flex-nowrap">
+                    <div
+                    class="col-6 d-flex weekly-movie-item mx-1 border-bottom justify-content-between p-2"
                   >
                     <div class="d-flex w-50 px-2 flex-column">
                       <h2 class="weekly-movie-name">
@@ -476,8 +499,8 @@
                         class="d-flex weekly-movie-date-rate justify-content-between"
                       >
                         <div>
-                          <span class="title-movie"> 2 تیر</span>
                           <span class="title-movie">آخرین آپدیت :</span>
+                          <span class="title-movie"> 2 تیر</span>
                         </div>
                         <div>
                           <span class="title-movie">Rating :</span
@@ -494,7 +517,7 @@
                   </div>
                   <!-- 2 -->
                   <div
-                    class="col-6 d-flex weekly-movie-item justify-content-between border-bottom p-2"
+                    class="col-6 d-flex weekly-movie-item mx-1 border-bottom  justify-content-between p-2"
                   >
                     <div class="d-flex w-50 px-2 flex-column">
                       <h2 class="weekly-movie-name">
@@ -506,8 +529,8 @@
                         class="d-flex weekly-movie-date-rate justify-content-between"
                       >
                         <div>
-                          <span class="title-movie"> 2 تیر</span>
                           <span class="title-movie">آخرین آپدیت :</span>
+                          <span class="title-movie"> 2 تیر</span>                       
                         </div>
                         <div>
                           <span class="title-movie">Rating :</span
@@ -521,10 +544,74 @@
                         alt=""
                       />
                     </div>
+                  </div>
+                  </div>
+                  <!-- 2 -->
+                  <div class="row flex-nowrap">
+                    <div
+                    class="col-6 d-flex weekly-movie-item mx-1  border-bottom  justify-content-between p-2"
+                  >
+                    <div class="d-flex w-50 px-2 flex-column">
+                      <h2 class="weekly-movie-name">
+                        <span class="title-movie">The Flash</span>
+                        <span class="title-movie">>></span>
+                        <span class="title-movie">S08 E19</span>
+                      </h2>
+                      <div
+                        class="d-flex weekly-movie-date-rate justify-content-between"
+                      >
+                        <div>
+                          <span class="title-movie">آخرین آپدیت :</span>
+                          <span class="title-movie"> 2 تیر</span>
+                        </div>
+                        <div>
+                          <span class="title-movie">Rating :</span
+                          ><span class="title-movie">7.6</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="weekly-img-box">
+                      <img
+                        src="assets/images/movies-poster/the-flash.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <!-- 2 -->
+                  <div
+                    class="col-6 d-flex weekly-movie-item mx-1 border-bottom  justify-content-between p-2"
+                  >
+                    <div class="d-flex w-50 px-2 flex-column">
+                      <h2 class="weekly-movie-name">
+                        <span class="title-movie">The Flash</span>
+                        <span class="title-movie">>></span>
+                        <span class="title-movie">S08 E19</span>
+                      </h2>
+                      <div
+                        class="d-flex weekly-movie-date-rate justify-content-between"
+                      >
+                        <div>
+                          <span class="title-movie">آخرین آپدیت :</span>
+                          <span class="title-movie"> 2 تیر</span>                       
+                        </div>
+                        <div>
+                          <span class="title-movie">Rating :</span
+                          ><span class="title-movie">7.6</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="weekly-img-box">
+                      <img
+                        src="assets/images/movies-poster/the-flash.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
                   </div>
                   <!-- 3 -->
-                  <div
-                    class="col-6 d-flex weekly-movie-item justify-content-between border-bottom p-2"
+                  <div class="row flex-nowrap">
+                    <div
+                    class="col-6 d-flex weekly-movie-item mx-1  border-bottom justify-content-between p-2"
                   >
                     <div class="d-flex w-50 px-2 flex-column">
                       <h2 class="weekly-movie-name">
@@ -536,8 +623,8 @@
                         class="d-flex weekly-movie-date-rate justify-content-between"
                       >
                         <div>
-                          <span class="title-movie"> 2 تیر</span>
                           <span class="title-movie">آخرین آپدیت :</span>
+                          <span class="title-movie"> 2 تیر</span>
                         </div>
                         <div>
                           <span class="title-movie">Rating :</span
@@ -552,9 +639,9 @@
                       />
                     </div>
                   </div>
-                  <!-- 4 -->
+                  <!-- 2 -->
                   <div
-                    class="col-6 d-flex weekly-movie-item justify-content-between border-bottom p-2"
+                    class="col-6 d-flex weekly-movie-item mx-1 border-bottom justify-content-between p-2"
                   >
                     <div class="d-flex w-50 px-2 flex-column">
                       <h2 class="weekly-movie-name">
@@ -566,8 +653,8 @@
                         class="d-flex weekly-movie-date-rate justify-content-between"
                       >
                         <div>
-                          <span class="title-movie"> 2 تیر</span>
                           <span class="title-movie">آخرین آپدیت :</span>
+                          <span class="title-movie"> 2 تیر</span>                       
                         </div>
                         <div>
                           <span class="title-movie">Rating :</span
@@ -582,65 +669,6 @@
                       />
                     </div>
                   </div>
-                  <!-- 4 -->
-                  <div
-                    class="col-6 d-flex weekly-movie-item justify-content-between border-bottom p-2"
-                  >
-                    <div class="d-flex w-50 px-2 flex-column">
-                      <h2 class="weekly-movie-name">
-                        <span class="title-movie">The Flash</span>
-                        <span class="title-movie">>></span>
-                        <span class="title-movie">S08 E19</span>
-                      </h2>
-                      <div
-                        class="d-flex weekly-movie-date-rate justify-content-between"
-                      >
-                        <div>
-                          <span class="title-movie"> 2 تیر</span>
-                          <span class="title-movie">آخرین آپدیت :</span>
-                        </div>
-                        <div>
-                          <span class="title-movie">Rating :</span
-                          ><span class="title-movie">7.6</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="weekly-img-box">
-                      <img
-                        src="assets/images/movies-poster/the-flash.jpg"
-                        alt=""
-                      />
-                    </div>
-                  </div>
-                  <!-- 5 -->
-                  <div
-                    class="col-6 d-flex weekly-movie-item justify-content-between border-bottom p-2"
-                  >
-                    <div class="d-flex w-50 px-2 flex-column">
-                      <h2 class="weekly-movie-name">
-                        <span class="title-movie">The Flash</span>
-                        <span class="title-movie">>></span>
-                        <span class="title-movie">S08 E19</span>
-                      </h2>
-                      <div
-                        class="d-flex weekly-movie-date-rate justify-content-between"
-                      >
-                        <div>
-                          <span class="title-movie"> 2 تیر</span>
-                          <span class="title-movie">آخرین آپدیت :</span>
-                        </div>
-                        <div>
-                          <span class="title-movie">Rating :</span
-                          ><span class="title-movie">7.6</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="weekly-img-box">
-                      <img
-                        src="assets/images/movies-poster/the-flash.jpg"
-                        alt=""
-                      />
-                    </div>
                   </div>
                 </div>
               </div>
@@ -1724,6 +1752,56 @@
 
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $c = 0;
+        $('#prev').click(function(){
+          if($c == 0){
+            $c = 1250;
+            $('.custom-carousel-item').css({           
+              'transform' : 'translateX('+$c+'px)'    
+            });
+           
+          }else if($c == 1250){
+            $c = 2500;
+            $('.custom-carousel-item').css({           
+              'transform' : 'translateX('+$c+'px)'
+            });
+            
+          }else if($c == 2500){
+            $c = 0;
+            $('.custom-carousel-item').css({           
+              'transform' : 'translateX('+$c+'px)'
+            });       
+          }
+          
+        });
+
+        $('#next').click(function(){
+          if($c == 0){
+            $c = 2500;
+            $('.custom-carousel-item').css({           
+              'transform' : 'translateX('+$c+'px)'    
+            });
+           
+          }else if($c == 2500){
+            $c = 1250;
+            $('.custom-carousel-item').css({           
+              'transform' : 'translateX('+$c+'px)'
+            });
+            
+          }else if($c == 1250){
+            $c = 0;
+            $('.custom-carousel-item').css({           
+              'transform' : 'translateX('+$c+'px)'
+            });       
+          }
+          
+        });
+
+        
+
+      });
+    </script>
   </body>
 </html>

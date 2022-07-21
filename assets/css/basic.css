@@ -64,6 +64,15 @@ input:focus{
     font-size: 1rem;
 }
 
+img{
+    transition: all 0.4s;
+}
+
+img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 
 
 

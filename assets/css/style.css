@@ -90,9 +90,44 @@
 }
 
 .custom-carousel-content{
+   
+    /* width: 3750px; */
     overflow: hidden;
+    position: relative;
 }
 
+.custom-carousel-item{
+    transition: all 0.7s;
+}
+
+
+#next{
+    position: absolute;
+    right: 50px;
+    top: 60%;
+    border-radius: 50%;
+    border:none;
+}
+
+#next i{
+    
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+#prev{
+    position: absolute;
+    left: 50px;
+    top: 60%;
+    border-radius: 50%;
+    border:none;
+}
+
+#prev i{
+   
+    padding: 1rem;
+    border-radius: 50%;
+}
 /* search */
 .search-advance-content-box{
     margin: auto;
@@ -133,7 +168,6 @@
 /* weekly movie */
 
 .weekly-movie-content-box{
-    /* width: 80%; */
     padding:0;
 }
 
@@ -146,6 +180,15 @@
     width: 40%;
     color: white;
 }
+
+/* .weekly-movie-item::after{
+    content: '';
+    width: 90%;
+    text-align: center;
+    height: 1px;
+    background-color: #b1b1b1;
+    margin: 10px auto;
+} */
 
 .show-all-series{
     margin-left: 2rem;
