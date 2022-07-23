@@ -513,4 +513,109 @@ footer{
     font-size: 0.7rem;
  }
 
+ @media Screen and (max-width:480px){
+    .top-menu{
+        padding-right:0 ;
+        padding-left: 0;
+    }
+    .top-menu li a{
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+    .brand-img-box{
+        text-align: center;
+    }
+
+    .lbl-control{
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+    .btn-search{
+        width: 100%;
+    }
+
+    .title-weekly-moive{
+        width: 100%;
+    }
+
+    .show-all-series{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .days-of-week{
+        width: 95%;
+    }
+    .days{
+        transition: all 0.5s;
+        font-size: 0.7rem;
+        white-space: nowrap;
+        padding: 0 !important;
+        margin: 0;
+    }
+    .moives-item{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .movies-page-sm{
+        padding: 0;
+    }
+
+    .footer-menu li a{
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+
+    .text-footer{
+        white-space: nowrap;
+    }
+   
+    .nav-link-sm
+    {
+        font-size: 0.7rem;
+    }
+    .nav-menu-sm{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .frm-sm {
+        padding: 0;
+    }
+
+    #prev , #next{
+        top: 100%;
+    }
+
+    #prev{
+        left: 9px !important;
+      
+    }
+
+    #next{
+        right: 9px !important;
+
+    }
+    #prev i{
+    
+        padding: 0.5rem;
+    }
+
+    #next i{
+      
+        padding: 0.5rem;
+    }
+
+    .custom-carousel-item{
+        overflow: hidden;
+    }
+    .custom-carousel{
+        display: none;
+    }
+
+
+}
+
+
 
