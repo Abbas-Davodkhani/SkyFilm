@@ -198,6 +198,12 @@
 .days-of-week{
     background-color: #ecedf6;
     width: 60%;
+    height: 50px;
+    max-height: 50px;
+}
+
+.days-of-week-box{
+    height: 370px;
 }
 .days{
     transition: all 0.5s;
@@ -284,9 +290,26 @@
 }
 
 .moives-item{
-    width: 100%;
+    width: 48%;
     margin: 0 0.5rem 1.5rem 0.5rem !important;
     
+}
+
+.saturday{height: 291px;display: block;top: 134px;}
+
+.sunday,
+.monday,
+.thursday,
+.wendesday,
+.thusday,
+.friday{
+    display: none;
+    top: 134px;
+    height: 291px;
+}
+
+.days-zIndex{
+    z-index: 1000;
 }
 
 .moives-item p{
@@ -635,8 +658,21 @@ footer{
     .movie-info-menu{
         width: 100%;
     }
+.days-of-week-box{
+    height: 588px;
+}
+.saturday{height: 298px;display: block;top: 155px;}
 
-
+.sunday,
+.monday,
+.thursday,
+.wendesday,
+.thusday,
+.friday{
+    display: none;
+    top: 155px;
+    height: 298px;
+}
 }
 
 
