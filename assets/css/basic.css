@@ -70,8 +70,19 @@ img{
 
 img:hover{
     cursor: pointer;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
+
+.active{
+    background-color: #cbd1ff;
+    cursor: pointer;
+}
+
+
+
+
+
+
 
 
 

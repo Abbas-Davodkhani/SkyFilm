@@ -240,6 +240,9 @@
     flex: 1;
 }
 
+.start{
+    text-align: left;
+}
 .weekly-movie-date-rate{
     flex: 1;
     align-items: center;
@@ -294,6 +297,44 @@
     margin: 0 0.5rem 1.5rem 0.5rem !important;
     
 }
+
+.movies-category{
+    height: 560px;
+}
+
+.series-category{
+    height: 560px;
+}
+
+.movies-genre , 
+.movies-country , 
+.movies-R , 
+.movies-point , 
+.movies-year{
+    top: 112px;
+    right: 33px;
+    display: none;
+}
+
+.movies-genre{
+    display: flex;
+}
+
+
+.series-genre , 
+.series-country , 
+.series-R , 
+.series-point , 
+.series-year{
+    top: 112px;
+    right: 33px;
+    display: none;
+}
+
+.series-genre{
+    display: flex;
+}
+
 
 .saturday{height: 291px;display: block;top: 134px;}
 
@@ -656,7 +697,7 @@ footer{
     }
 
     .movie-info-menu{
-        width: 100%;
+        width: 100% !important;
     }
 .days-of-week-box{
     height: 588px;
@@ -673,6 +714,31 @@ footer{
     top: 155px;
     height: 298px;
 }
+
+.series-genre , 
+.series-country , 
+.series-R , 
+.series-point , 
+.series-year{
+    
+    right: 50px;
+   
+}
+
+.movies-genre , 
+.movies-country , 
+.movies-R , 
+.movies-point , 
+.movies-year{
+    
+    right: 50px;
+   
+}
+
+
+
+
+
 }
 
 
